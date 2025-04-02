@@ -1,0 +1,9 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let photo of photos">
+      <div class="photo-container mb-4 shadow-sm">
+        <img [src]="photo.url" class="card-img-top" alt="Photo">
+      </div>
+    </div>
+  </div>
+</div>
